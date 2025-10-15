@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mohammadbadrian0-art.github.io/Mohammadbadrian.github.io/sitemap.xml

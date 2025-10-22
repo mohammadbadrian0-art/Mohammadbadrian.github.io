@@ -18,7 +18,7 @@
   <meta name="twitter:image" content="https://mohammadbadrian0-art.github.io/portrait.jpg" />
   <meta name="twitter:image:alt" content="دکتر محمد بدریان" />
 
-  <!-- JSON-LD: Person + Works (کمک به گوگل برای شناخت آثار بدون نمایش تصویر در صفحه) -->
+  <!-- JSON-LD: Person + Works -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
@@ -42,7 +42,7 @@
     :root{--ink:#1b1b1b;--muted:#666;--line:#f0f0f0;--tagbg:#eef6ff;--tagbd:#d9ebff;--tag:#0b63c5}
     body{font-family:Vazirmatn,IRANSansX,Arial;line-height:1.9;margin:0;color:var(--ink);background:#fff}
     .wrap{max-width:1080px;margin:auto;padding:24px}
-    header{display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+    header{display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap}
     h1{margin:0 0 8px;font-size:28px}
     .subtitle{margin:0;color:var(--muted)}
     nav{margin:6px 0 0}
@@ -59,7 +59,7 @@
     @media (max-width:900px){.grid{grid-template-columns:1fr}}
     .note{background:#fbfbff;border:1px solid #eaeaff;border-radius:12px;padding:12px}
     .hero{border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.07);max-width:100%;height:auto}
-    /* هیچ گالری تصویری در بدنه نمایش داده نمی‌شود */
+    .thumb{border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,.08);margin-top:12px;max-width:100%;height:auto}
   </style>
 </head>
 <body>
@@ -88,8 +88,14 @@
           <span class="tag">مالیات صادرات مواد خام</span>
         </p>
       </div>
-      <!-- تصویر هدر اختیاری: اگر نمی‌خواهی نمایش داده شود، همین img را حذف کن -->
-      <!-- <img class="hero" src="https://mohammadbadrian0-art.github.io/portrait.jpg" alt="دکتر محمد بدریان" /> -->
+
+      <!-- ستون تصاویر: عکس اصلی + عکس کوچک زیرش -->
+      <div>
+        <!-- عکس اصلی سایت اصلی (مثل دو روز پیش) -->
+        <img class="hero" src="IMG-20251011-WA0021.jpg" alt="دکتر محمد بدریان">
+        <!-- عکس کوچکِ بالای سمت چپ (از هاست عکس‌ها) -->
+        <img class="thumb" src="https://mohammadbadrian0-art.github.io/profile2.jpeg" alt="دکتر محمد بدریان - پرتره دوم" width="160">
+      </div>
     </header>
 
     <section id="raw">

@@ -2,17 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mohammadbadrian0-art.github.io/Mohammadbadrian.github.io/</loc>
-    <lastmod>2025-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Photos page (اختیاری ولی خیلی مفید؛ اگر نداری، این url را پاک کن) -->
+  <!--
   <url>
-    <loc>https://mohammadbadrian0-art.github.io/Mohammadbadrian.github.io/IMG-20251011-WA0021.jpg</loc>
+    <loc>https://mohammadbadrian0-art.github.io/Mohammadbadrian.github.io/photos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://mohammadbadrian0-art.github.io/Mohammadbadrian.github.io/WhatsApp%20Image%202025-10-15%20at%2009.46.13.jpeg</loc>
-  </url>
-  <url>
-    <loc>https://mohammadbadrian0-art.github.io/Mohammadbadrian.github.io/WhatsApp%20Image%202025-10-15%20at%2011.57.21.jpeg</loc>
-  </url>
+  -->
+
+  <!-- New images -->
+  <url><loc>https://mohammadbadrian0-art.github.io/Mohammadbadrian.github.io/mohammad-badrian-main-01.jpg</loc></url>
+  <url><loc>https://mohammadbadrian0-art.github.io/Mohammadbadrian.github.io/mohammad-badrian-01.jpg</loc></url>
+  <url><loc>https://mohammadbadrian0-art.github.io/Mohammadbadrian.github.io/mohammad-badrian-02.jpg</loc></url>
+  <url><loc>https://mohammadbadrian0-art.github.io/Mohammadbadrian.github.io/mohammad-badrian-03.jpg</loc></url>
+  <url><loc>https://mohammadbadrian0-art.github.io/Mohammadbadrian.github.io/mohammad-badrian-04.jpg</loc></url>
+  <url><loc>https://mohammadbadrian0-art.github.io/Mohammadbadrian.github.io/mohammad-badrian-book-cover.jpg</loc></url>
 </urlset>
